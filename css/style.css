@@ -3,7 +3,19 @@ body {
 }
 #sections {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 section {
   display: flex;
+  padding: 1%;
+  margin: 5%;
+  width: 40%;
+}
+#section1 {
+  background-color: #fa8072;
+}
+#section2 {
+  background-color: #808000;
 }
