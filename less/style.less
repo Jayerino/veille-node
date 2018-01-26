@@ -1,6 +1,7 @@
 @couleurFond : cornflowerblue;
 @couleurSection1 : salmon;
 @couleurSection2 : olive;
+@couleurSection3 : teal;
 @couleurFooter : goldenrod;
 @couleurMenu : peachpuff;
 
@@ -41,16 +42,14 @@ ul li:hover {
 #sections {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: baseline;
 }
 
 section {
 	display : flex;
 	padding : 1%;
-	margin : 5%;
-	width: 40%;
-	height: 25%;
+	width: 25%;
 	line-height: 200%;
 
 	justify-content: center;
@@ -73,6 +72,10 @@ section p {
 
 #section2 {
 	background-color: @couleurSection2;
+}
+
+#section3 {
+	background-color: @couleurSection3;
 }
 
 #footer {

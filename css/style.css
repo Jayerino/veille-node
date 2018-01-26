@@ -28,15 +28,13 @@ ul li:hover {
 #sections {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: baseline;
 }
 section {
   display: flex;
   padding: 1%;
-  margin: 5%;
-  width: 40%;
-  height: 25%;
+  width: 25%;
   line-height: 200%;
   justify-content: center;
   align-items: center;
@@ -54,6 +52,9 @@ section p {
 }
 #section2 {
   background-color: #808000;
+}
+#section3 {
+  background-color: #008080;
 }
 #footer {
   display: flex;
