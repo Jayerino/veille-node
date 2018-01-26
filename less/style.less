@@ -2,6 +2,7 @@
 @couleurSection1 : salmon;
 @couleurSection2 : olive;
 @couleurFooter : goldenrod;
+@couleurMenu : peachpuff;
 
 body {
 	background-color: @couleurFond;
@@ -22,6 +23,13 @@ ul li {
 	width: 20%;
 	display: flex;
 	justify-content: center;
+
+	transition: background-color 0.3s, width 0.3s;
+}
+
+ul li:hover {
+	background-color: @couleurMenu;
+	width: 22%
 }
 
 #sections {
