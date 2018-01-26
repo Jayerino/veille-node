@@ -71,10 +71,13 @@ footer {
   flex-direction: row;
   align-items: baseline;
   font-size: 1.2em;
-  line-height: 200%;
+  line-height: 150%;
 }
 footer #bold {
   font-weight: bolder;
+  font-size: 1.4em;
+  line-height: 180%;
+  width: 30%;
 }
 footer #partie2Footer {
   display: flex;
@@ -84,4 +87,7 @@ footer #partie2Footer {
 footer #partie2Footer p {
   padding-top: 5%;
   padding-bottom: 5%;
+}
+@media screen and (max-width: 800px) {
+  
 }
