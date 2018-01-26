@@ -42,6 +42,9 @@ section {
   align-items: center;
   width: 100%;
   margin: 1%;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  background-color: #daa520;
 }
 footer {
   display: flex;
