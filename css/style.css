@@ -1,6 +1,20 @@
 body {
   background-color: #6495ed;
 }
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  border: 2px solid;
+  margin: 1%;
+  padding: 1%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
 #sections {
   display: flex;
   flex-direction: row;
@@ -12,10 +26,23 @@ section {
   padding: 1%;
   margin: 5%;
   width: 40%;
+  height: 25%;
+  justify-content: center;
+  align-items: center;
 }
 #section1 {
   background-color: #fa8072;
 }
 #section2 {
   background-color: #808000;
+}
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 1%;
+}
+footer {
+  display: flex;
 }
