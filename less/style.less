@@ -4,9 +4,11 @@
 @couleurSection3 : teal;
 @couleurFooter : goldenrod;
 @couleurMenu : peachpuff;
+@textSite :'Roboto', sans-serif;
 
 body {
 	background-color: @couleurFond;
+	font-family: @textSite;
 }
 
 #titre {
@@ -89,7 +91,7 @@ section p {
 
 footer {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-direction: row;
 	align-items: baseline;
 
@@ -97,11 +99,14 @@ footer {
 	line-height: 200%;
 }
 
+footer #bold {
+	font-weight: bolder;
+}
+
 footer #partie2Footer {
 	display: flex;
 	flex-direction: column;
 
-	//margin-left: 2%;
 	width: 50%;
 }
 

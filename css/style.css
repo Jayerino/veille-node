@@ -1,5 +1,6 @@
 body {
   background-color: #6495ed;
+  font-family: 'Roboto', sans-serif;
 }
 #titre {
   font-size: 3em;
@@ -66,11 +67,14 @@ section p {
 }
 footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
   align-items: baseline;
   font-size: 1.2em;
   line-height: 200%;
+}
+footer #bold {
+  font-weight: bolder;
 }
 footer #partie2Footer {
   display: flex;
