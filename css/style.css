@@ -97,5 +97,8 @@ footer #partie2Footer p {
   padding-bottom: 5%;
 }
 @media screen and (max-width: 800px) {
-  
+  #sections {
+    width: 95%;
+    flex-direction: column;
+  }
 }
